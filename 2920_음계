@@ -24,9 +24,9 @@ AS = [1, 2, 3, 4, 5, 6, 7, 8]
 DS = [8, 7, 6, 5, 4, 3, 2, 1]
 array = list(map(int, read().split()))
 
-if array == AS:
+if array == AS: #array, AS의 값 비교하여 오름차순출력
     print("ascending")
-elif array == DS:
+elif array == DS: #array, AS의 값 비교하여 내림차순출력
     print("descending")
 else:
     print("mixed")
